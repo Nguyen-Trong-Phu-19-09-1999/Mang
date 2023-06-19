@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+  let arr=[19,9,1999,29,3,2002]
+  let max=arr[0]
+  let b=arr[0]
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > max){
+      max=arr[i]
+      b += arr[i]
+    }
+  }
+ document.write(max + " Là số lớn nhất"+"<br>")
+  document.write("Giá trị trung bình là : "+ b/arr.length)
+</script>
+</html>

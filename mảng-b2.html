@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let arr = [1, 2, 3, 4, 5, 6, 7, 8, -9, -10]//Khai báo mảng
+    let max = arr[0]    //gán giá trị lớn nhất (max)
+    for (let i = 0; i < arr.length; i++) {  //dùng vòng lặp để so sánh trong mảng để tìm giá trị lớn nhất
+        if (arr[i] > max) {   //Điều kiện để so sánh phần tử i với max
+            max = arr[i]      //Nếu phần tử i = max thì tìm đc giá trị lớn nhất
+        }
+    }
+    alert(max + " Là số lớn nhất")
+</script>
+</html>

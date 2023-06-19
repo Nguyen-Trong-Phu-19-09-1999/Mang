@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let arr = prompt("Nhập hàm số nguyên");
+    let b = prompt("Nhập số để kiểm tra");
+    let c = true
+    let i;
+    let n= arr.split(" ") //chuyển chuỗi thành hàm
+    for (i = 0; i < n.length; i++) {
+        if (b === n[i]){
+            c=true
+            break
+        }
+    }
+    if (c) {
+        n.splice(i,1) //Cắt phần tử (vị trí, số lượng cắt)
+    }
+    document.write(n)
+
+</script>
+</html>
